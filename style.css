@@ -1,0 +1,18 @@
+* {
+    font-family: Helvetica;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(38, 37, 37);
+}
+
+span {
+    color: rgb(220, 225, 233);
+    background-color: rgb(38, 37, 37);
+    border-radius: 5px;
+    padding: 0 5px;
+}
