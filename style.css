@@ -1,5 +1,28 @@
 * {
     font-family: Helvetica;
+    margin: 0px;
+}
+
+.sessao{
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #de9c51;
+    color: #ffffff;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+}
+
+.item {
+    background-color: #e5a760;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 header {
@@ -7,20 +30,16 @@ header {
 }
 
 h1 {
-    color: rgb(38, 37, 37);
-}
-
-span {
-    color: rgb(220, 225, 233);
-    background-color: rgb(38, 37, 37);
-    border-radius: 5px;
-    padding: 0 5px;
+    color: rgb(86, 86, 86);
+    margin: 20px;
 }
 
 form {
     display: inline-block;
     width: 250px;
     border-radius: 5px;
+    margin-top: 30px;
+    color: rgb(86, 86, 86);
 }
 
 input {
@@ -28,8 +47,8 @@ input {
 }
 
 button {
-    background-color: rgb(243, 241, 249);
+    background-color: #e6c59f;
     padding: 5px;
     margin-top: 10px;
-    border: solid 1px rgb(247, 54, 54);
+    border: solid 2px #de9c51;
 }
