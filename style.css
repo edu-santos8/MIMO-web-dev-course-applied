@@ -47,8 +47,11 @@ input {
 }
 
 button {
-    background-color: #e6c59f;
+    background-color: #de9c51;
+    color: #ffffff;
+    font-weight: bold;
     padding: 5px;
     margin-top: 10px;
-    border: solid 2px #de9c51;
+    border-radius: 5px;
+    border: solid 1px #de9c51;
 }
