@@ -3,10 +3,6 @@
     margin: 0px;
 }
 
-.sessao{
-    margin-left: 20px;
-}
-
 .container {
     display: flex;
     height: 60px;
@@ -41,9 +37,21 @@ h1 {
     margin: 20px;
 }
 
+.sessao {
+    margin-bottom: 600px;
+}
+
+.sessaocontact{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 500px;
+}
+
 form {
     display: inline-block;
-    width: 250px;
+    width: 100%;
     border-radius: 5px;
     margin-top: 30px;
     color: rgb(86, 86, 86);
@@ -51,6 +59,8 @@ form {
 
 input {
     padding: 5px;
+    margin-left: 12px;
+    width: 70%;
 }
 
 button {
@@ -61,4 +71,15 @@ button {
     margin-top: 10px;
     border-radius: 5px;
     border: solid 1px #de9c51;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #de9c51;
+    justify-content: center;
+    align-items: center;
+    color: rgb(86, 86, 86);
+    margin-bottom: 0px;
 }
