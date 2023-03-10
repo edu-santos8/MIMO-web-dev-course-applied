@@ -37,9 +37,16 @@ header {
     text-align: center;
 }
 
-h1 {
+h1, h3 {
     color: rgb(86, 86, 86);
-    margin: 20px;
+    margin: 40px;
+}
+
+span {
+    background-color: rgb(188, 255, 233);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
 }
 
 .sessao {
